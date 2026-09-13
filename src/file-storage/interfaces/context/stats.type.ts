@@ -1,11 +1,4 @@
-export type Stats =
-    | {
-        readonly kind: 'file';
-        readonly size: number;
-        readonly lastModified: number;
-    }
-    | {
-        readonly kind: 'directory';
-        readonly size: null;
-        readonly lastModified: null;
-    };
+import type { FileStats } from './file-stats.type';
+import type { DirectoryStats } from './directory-stats.type';
+
+export type Stats = FileStats | DirectoryStats;

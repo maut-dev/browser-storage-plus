@@ -6,6 +6,8 @@ export type { MakeDirectoryOptions } from './make-directory-options.interface';
 export type { ReadStream } from './read-stream.type';
 export type { RmOptions } from './rm-options.interface';
 export type { Stats } from './stats.type';
+export type { FileStats } from './file-stats.type';
+export type { DirectoryStats } from './directory-stats.type';
 export type { WriteStream } from './write-stream.type';
 export type { ReadStreamOptions } from './read-stream-options.interface';
 export type { FileStorageContextOptions } from './file-storage-context-options.interface';
